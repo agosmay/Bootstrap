@@ -16,6 +16,25 @@ a {
 	text-decoration: none!important;
 }
 
+.portada {
+	opacity: 50%;
+	
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 300px;
+  right: 100px;
+  font-weight: bold;
+  width: 50%;
+  font-size: 0.9rem;
+  
+ 
+ 
+}
+
+
+
 .border-personaje {
 	border: 1px solid grey;
 	
@@ -36,5 +55,17 @@ a {
 	
 }
 
+@media (max-width: 600px) {
+  .bottom-right {
+		display: none;
+  }
+}
 
+@media(min-width: 600px) {
+	.cabecera {
+		display: none;
+	}
+	
+	
+}
 
