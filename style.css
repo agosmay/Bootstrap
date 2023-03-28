@@ -1,0 +1,27 @@
+.personaje,
+.portada,
+.beach
+{
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+.logoCodo {
+	height: 3rem;
+}
+
+a {
+	text-decoration: none!important;
+}
+
+.border-personaje {
+	border: 1px solid grey;
+	
+}
+
+.beach {
+	height: 100%;
+	
+}
