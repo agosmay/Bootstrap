@@ -55,6 +55,34 @@ a {
 	
 }
 
+/* estilos seccion comprar tickets */
+
+
+.estudiante {
+	border: 2px solid blue;
+}
+
+.trainee {
+	border: 2px solid green;
+	
+}
+
+.junior {
+	border: 2px solid yellow;
+}
+
+.botonTickets {
+	width: 48%;
+	
+}
+
+.backP {
+	background-color: limegreen;
+	padding: 10px;
+	
+}
+
+
 @media (max-width: 600px) {
   .bottom-right {
 		display: none;
